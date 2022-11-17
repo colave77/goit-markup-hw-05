@@ -84,6 +84,8 @@ h4 {margin: 0px;}
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
+    position: relative;
+    margin-bottom: 27px;
 }
 
 .mail-tel {
@@ -245,6 +247,8 @@ h4 {margin: 0px;}
 .menu>.item:not(:last-child) {
     margin-right: 20px;
 }
+
+
 .writers {
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -317,6 +321,7 @@ h4 {margin: 0px;}
     height: 16px;
     width: 16px;
     margin-right: 5px;
+    margin-bottom: -3px;
 }
 .icon-section{
     height: 70px;
@@ -423,6 +428,7 @@ h4 {margin: 0px;}
     display: flex;
     justify-content: center;
     position: absolute;
+    top: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -449,4 +455,41 @@ h4 {margin: 0px;}
 .icon-right{
     display: flex;
     justify-content: end;
+}
+
+.underline:hover{
+    border-bottom: 4px solid;
+    color: var(--blue-color);
+}
+.underline:hover::after{
+    content: '';
+    /* border-bottom: 4px solid #2196F3; */
+    border-radius: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+/* nombres en imagenes */
+.img-label{
+    position: relative;
+}
+.font-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 372px;
+    height: 70px;
+    position: absolute;
+    background: #2F303ACC;
+    transform: translateY(-105%);
+}
+
+.title-label{
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
 }

@@ -13,15 +13,6 @@
     />
   </head>
   <body>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <div class="icon-right" data-modal-close>
-          <svg class="icon-close-modal">
-            <use href="./images/close.svg#icon-close"></use>
-          </svg>
-        </div>
-      </div>
-    </div>
     <header>
       <div class="container menu height-header">
         <div class="menu">
@@ -29,20 +20,20 @@
             <h4 class="webstudio-logo">WebStudio</h4>
           </a>
 
-          <nav class="menu nav-width">
+          <nav class="nav-width">
             <ul class="menu unpointing">
               <li class="item">
-                <a href="index.html" class="not-line">
+                <a href="index.html" class="not-line underline">
                   <h6 class="desk not-line">Estudio</h6>
                 </a>
               </li>
               <li class="item">
-                <a href="portfolio.html" class="not-line">
+                <a href="portfolio.html" class="not-line underline">
                   <h6 class="desk not-line">Portafolio</h6>
                 </a>
               </li>
               <li class="item">
-                <a href="" class="not-line">
+                <a href="" class="not-line underline">
                   <h6 class="desk not-line">Contactos</h6>
                 </a>
               </li>
@@ -146,32 +137,47 @@
             <ul class="menu aque-cent unpointing">
               <div class="between-parts">
                 <li>
-                  <img
-                    src="images/pc.jpg"
-                    alt="Imagen de PC"
-                    width="373"
-                    class="images-services"
-                  />
+                  <div class="img-label">
+                    <img
+                      src="images/pc.jpg"
+                      alt="Imagen de PC"
+                      width="373"
+                      class="images-services"
+                    />
+                  </div>
+                  <div class="font-label">
+                    <div class="title-label">APLICACIONES DE ESCRITORIO</div>
+                  </div>
                 </li>
               </div>
               <div class="between-parts">
                 <li>
-                  <img
-                    src="images/laptop.jpg"
-                    alt="Imagen de Portatil"
-                    width="373"
-                    class="images-services"
-                  />
+                  <div class="img-label">
+                    <img
+                      src="images/laptop.jpg"
+                      alt="Imagen de Portatil"
+                      width="373"
+                      class="images-services"
+                    />
+                  </div>
+                  <div class="font-label">
+                    <div class="title-label">APLICACIONES MÓVILES</div>
+                  </div>
                 </li>
               </div>
               <div class="between-parts">
                 <li>
-                  <img
-                    src="images/tablet.jpg"
-                    alt="Imagen de tablet"
-                    width="373"
-                    class="images-services"
-                  />
+                  <div class="img-label">
+                    <img
+                      src="images/tablet.jpg"
+                      alt="Imagen de tablet"
+                      width="373"
+                      class="images-services"
+                    />
+                  </div>
+                  <div class="font-label">
+                    <div class="title-label">SOLUCIONES DE DISEÑO</div>
+                  </div>
                 </li>
               </div>
             </ul>
@@ -501,6 +507,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="icon-right" data-modal-close>
+          <svg class="icon-close-modal">
+            <use href="./images/close.svg#icon-close"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
